@@ -33,6 +33,8 @@ body.dark {
 .about-us { 
     padding-top:150px;
     margin:50px;
+    font-size:1.25rem;
+    line-height:2rem;
 }
 
 .container-about { 
@@ -42,6 +44,61 @@ body.dark {
     padding: 0 0 5% 0;
 
 }
+
+.mycv { 
+    margin:5rem;
+    background-color:#fff;
+    display:flex;
+    max-width: 100%;
+    height:450px;
+    border-radius: 20px;
+}
+
+.content {
+    padding:5% 0 10% 10% ;
+    line-height: 3rem;
+    font-size:1.25rem;
+}
+
+.mycv button { 
+    padding:1rem;
+    background:#10c872;
+    font-size: 1rem;
+    color:#fff;
+    border:none;
+    border-radius: 10px;
+}
+
+.container-experience { 
+    margin:5rem;
+    background-color:#fff;
+    display:flex;
+    max-width: 100%;
+    height:450px;
+    border-radius: 20px;
+}
+
+.experiences {
+    padding:5% 0 10% 10% ;
+    line-height: 4rem;
+}
+
+.experiences h1 { 
+    padding: 0 0 6.5% 0;
+}
+.experiences p { 
+
+    font-size:1.25rem;
+}
+
+.myself{
+    margin:5rem;
+    display:flex;
+    max-width: 100%;
+}
+
+
+
 
 footer { 
     max-width: 100%;
@@ -64,8 +121,7 @@ footer {
     justify-content: center;
 }
 
-.row .col { 
-}
+
 
 .list li {
     line-height:2rem;
