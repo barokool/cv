@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* { 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body { 
+    background:#fff;
+}
+
+body.dark {
+    background:#212529;
+    color:#fff;
+}
+
+
+.navbar-brand { 
+    font-size:20px;
+    font-weight:bold;
+   justify-content: center;
+   display:flex;
+   align-items:center;
+}
+
+.container-form h1{
+    text-align:center;
+}
+
+.container2 { 
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.todo-form { 
+    margin:20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.todo-form input { 
+    padding:0.5rem;
+}
+
+
+
+
+.container2 .add-btn {
+    padding:0.5rem;
+    
+}
+
+.todo-list li { 
+    padding:0.75rem;
+    background:grey;
+    margin:5px;
+    max-width: 100%;
+   
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+ul {
+    padding-left:0rem;
+}
+.todo-list ul { 
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 16px;
+    
+
+}
+
+.notify { 
+    display:flex;
+    justify-content: space-around;
+    align-self: center;
+}
+.notify button{
+    padding:0.5rem;
+}
+
+.container-results{ 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+    
+    
+}
