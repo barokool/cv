@@ -17,6 +17,14 @@ body.dark {
     color:#fff;
 }
 
+body.dark .content,.container-experience { 
+    color:black;
+}
+
+body.dark .myself{
+    color:#fff;
+}
+
 .navbar-brand { 
     font-size:20px;
     font-weight:bold;
@@ -41,7 +49,7 @@ body.dark {
     display:flex;
     align-items:center;
     justify-content: center;
-    padding: 0 0 5% 0;
+    padding: 0 0 0 0;
 
 }
 
@@ -58,6 +66,8 @@ body.dark {
     padding:5% 0 10% 10% ;
     line-height: 3rem;
     font-size:1.25rem;
+    max-width: 100%;
+
 }
 
 .mycv button { 
@@ -81,6 +91,7 @@ body.dark {
 .experiences {
     padding:5% 0 10% 10% ;
     line-height: 4rem;
+    max-width: 100%;
 }
 
 .experiences h1 { 
@@ -162,4 +173,74 @@ footer {
 
 .social-media a:hover{ 
     color:rgb(102, 100, 104);
+}
+
+
+@media screen and (max-width: 768px){
+    .container-about { 
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .about-us { 
+        padding: 0 ;
+    }
+    .content { 
+        padding:5% 10% 5% 10% ;
+    line-height: 3rem;
+    font-size:1.25rem;
+    max-width: 100%;
+    }
+}
+@media screen and (max-width :600px ){
+    .mycv{
+        margin:3rem;
+        height:100%;
+    }
+    .content {
+        margin:2rem ;
+
+    }
+    .experiences{
+        margin:1rem ;
+
+    }
+    .container-experience{
+    height:100%;
+    margin:2rem ;
+
+
+    }
+    .experiences h1 { 
+        padding: 0 0 10% 0;
+
+    }
+    .content { 
+    padding: 0 0 6.5% 0;
+
+    }
+}
+
+@media screen and (max-width :320px ){
+    .avt img { 
+        width:200px;
+    }
+    .mycv { 
+        margin:3rem;
+        height:100%;
+    }
+    .content {
+        margin:1rem ;
+        line-height:2rem;
+    }
+    .container-experience { 
+        height:100%;
+        margin:1rem;
+        
+    }
+    .ex { 
+        line-height:2rem;
+    }
+    
+    
 }
