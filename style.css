@@ -7,6 +7,10 @@
     text-decoration: none;
     list-style: none;
 }
+html { 
+    scroll-behavior: smooth;
+
+}
 
 body { 
     background:#ebebff;
@@ -110,6 +114,20 @@ body.dark .container-footer{
     display:flex;
     max-width: 100%;
 }
+
+.scroll {
+    padding:1rem;
+    position:fixed;
+    display:flex;
+    bottom:10px;
+    right:10px;
+}
+
+.scroll a { 
+    font-size:40px;
+    
+}
+
 
 
 
