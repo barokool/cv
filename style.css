@@ -24,6 +24,9 @@ body.dark .content,.container-experience {
 body.dark .myself{
     color:#fff;
 }
+body.dark .container-footer{ 
+    border-top:1px solid white;
+}
 
 .navbar-brand { 
     font-size:20px;
@@ -125,7 +128,10 @@ footer {
     display:flex;
     flex-direction: column;
     max-width: 100%;
+    border-top: 1px solid white;
 }
+
+
 
 .row { 
     display:flex;
